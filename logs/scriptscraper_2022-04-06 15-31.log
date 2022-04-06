@@ -1,0 +1,60 @@
+INFO: Starting scraping process (FOR ONLY 2021):
+	TV:True
+	Letters:['0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+INFO: Shows for K - 2
+INFO: Scripts for K - 23
+INFO: Shows for S - 9
+INFO: Scripts for S - 102
+INFO: Shows for J - 1
+INFO: Scripts for J - 8
+INFO: Shows for A - 9
+INFO: Scripts for A - 75
+INFO: Shows for R - 2
+INFO: Scripts for R - 24
+INFO: Shows for Z - 0
+INFO: Scripts for Z - 0
+INFO: Shows for I - 3
+INFO: Scripts for I - 23
+INFO: Shows for B - 2
+INFO: Scripts for B - 19
+INFO: Shows for Q - 1
+INFO: Scripts for Q - 13
+INFO: Shows for Y - 3
+INFO: Scripts for Y - 30
+INFO: Shows for H - 4
+INFO: Scripts for H - 44
+INFO: Shows for C - 7
+INFO: Scripts for C - 72
+INFO: Shows for P - 2
+INFO: Scripts for P - 23
+INFO: Shows for 0 - 4
+INFO: Scripts for 0 - 37
+INFO: Shows for X - 0
+INFO: Scripts for X - 0
+INFO: Shows for G - 3
+INFO: Scripts for G - 30
+INFO: Shows for O - 3
+INFO: Scripts for O - 35
+INFO: Shows for W - 3
+INFO: Scripts for W - 47
+INFO: Shows for F - 6
+INFO: Scripts for F - 60
+INFO: Shows for N - 2
+INFO: Scripts for N - 22
+INFO: Shows for V - 1
+INFO: Scripts for V - 6
+INFO: Shows for E - 0
+INFO: Scripts for E - 0
+INFO: Shows for M - 7
+INFO: Scripts for M - 59
+INFO: Shows for U - 1
+INFO: Scripts for U - 30
+INFO: Shows for D - 4
+INFO: Scripts for D - 43
+INFO: Shows for L - 5
+INFO: Scripts for L - 50
+INFO: Shows for T - 17
+INFO: Scripts for T - 159
+INFO: Total shows count from 2021 - 101
+INFO: Total scripts count from 2021 - 1034
+INFO: Total time: 153.3526246547699

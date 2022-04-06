@@ -1,0 +1,88 @@
+INFO: Starting scraping process:
+	TV:True
+	Letters:['0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+ERROR: iterate_letter_pages(): Error occurred for T on page 25: Remote end closed connection without response
+INFO: Shows for G - 171
+INFO: Scripts for G - 4572
+INFO: Missing for G - ['Game of Thrones', 'Gavin and Stacey', 'Ghost Whisperer', 'Gilmore Girls', 'Girls', 'Glee', 'Go On', 'Good Luck Charlie', 'Gossip Girl', 'Graceland', 'Gravity', 'Greek', 'Green Lantern: The Animated Series', 'Green Wing', "Grey's Anatomy", 'Grimm', 'Growing Pains', 'Guardians of the Galaxy: Origins']
+INFO: Shows for H - 232
+INFO: Scripts for H - 6048
+INFO: Missing for H - ['Hairy Bikers - Chicken & Egg', 'Hannah Montana', 'Hannibal', 'Happy Endings', 'Happy Town', "Harper's Island", 'Harsh Realm', 'Hart of Dixie', 'Hatsukoi Monster', 'Haven', 'Hawaii Five-0', 'Heartland (CA)', 'Hell on Wheels', 'Hellcats', 'Hello Ladies', 'Henry VIII and His Six Wives', 'Hercules: The Legendary Journeys', 'Heroes', 'Hidden Palms', 'Highlander: The Raven', 'Hit & Miss', 'Home Improvement', 'Homeland', 'Homicide: Life on the Street', 'Hope Springs', 'Hostages', 'Hot In Cleveland', 'House of Lies', 'House, M.D.', 'How I Met Your Mother', "How to Cook Well with Rory O'Connell", 'How to Live with Your Parents (For the Rest of Your Life)', 'How To Make It In America', 'Human Target', 'Hung', 'Hunted', 'Hustle']
+INFO: Shows for R - 178
+INFO: Scripts for R - 4454
+INFO: Missing for R - ['Rail Away', 'Raising Hope', 'Ranma 12', 'Ray Donovan', 'Reaper', 'Rectify', 'Red Dwarf', 'Red Riding', 'ReGenesis', 'Relic Hunter', 'Rescue Me', 'Revenge', 'Revolution', 'Richard Hammond Builds a Planet', "Richard Hammond's Engineering Connections", "Richard Hammond's Invisible Worlds", 'Riddles of the Bible', 'Ringer', "Riots And Revolutions: Nel's Arab Journey", 'Rivers of Life', 'Rizzoli and Isles', 'Roar', 'Robin Hood', 'Robot Chicken', 'Romantically Challenged', 'Rome', 'Rookie Blue', 'Roommates', 'Roseanne', 'Roswell', 'Royal Pains', 'Rubicon', 'Rules of Engagement']
+INFO: Shows for Z - 15
+INFO: Scripts for Z - 234
+INFO: Missing for Z - ['Zero Hour']
+INFO: Shows for E - 91
+INFO: Scripts for E - 2443
+INFO: Missing for E - ['Earth: Final Conflict', 'Eastbound & Down', 'Eastwick', 'Edge of Darkness', 'El Dragon: Return of a Warrior', 'Elementary', 'Eleventh Hour', 'Eli Stone', 'Endgame', 'Engelbert with the Young Generation (21972)', 'Enlightened', 'Entourage', 'Episodes', 'ER', 'Eureka', 'Evening Shade', 'Everwood', 'Everybody Hates Chris', 'Everybody Loves Raymond', 'Extras']
+INFO: Shows for Q - 24
+INFO: Scripts for Q - 741
+INFO: Missing for Q - ['Quantum Leap', 'Queer as Folk', 'Queer as Folk (UK)', 'Queers.']
+INFO: Shows for B - 355
+INFO: Scripts for B - 8569
+INFO: Missing for B - ['Baby Daddy', 'Babylon 5', 'Back in the Game', 'Band of Brothers', 'Bargain Fever Britain', 'Bates Motel', 'Batman', 'Battlestar Galactica', 'BBC Colour - The Spectrum of Science', 'BBC Count Dracula', 'BBC D-Day to Berlin', "BBC David Attenborough's First Life", "BBC David Attenborough's Rise of Animals", 'BBC Hiroshima', 'BBC Secret of the Sexes', 'BBC Secret Universe', 'BBC Secrets of Bones', 'BBC Supernatural', "BBC Tomorrow's Food", 'BBC Treasures Of The Indus', 'Becker', 'Being Human (UK)', 'Being Human (US)', 'Ben 10: Ultimate Alien', 'Betrayal', 'Better With You', 'Beware The Batman', 'Beyond Stranger Things', "Bible's Buried Secrets (BBC)", 'Big Bang Theory', 'Big Day', 'Big Time Rush', 'Bionic Woman', 'Birds of Prey', 'Black Books', 'Blackadder', 'Blade', 'Bleach', 'Blood Feuds', 'Blue Bloods', 'Boardwalk Empire', "Bob's Burgers", 'Body of Proof', 'Bomb Girls', 'Bonanza', 'Bones', 'Boston Legal', 'Boy Meets World', 'Breaking Bad', 'Brickleberry', 'Bron', 'Brooklyn Nine-Nine', 'Brotherhood', 'Brothers & Sisters', 'Buck Rogers in the 25th Century ', 'Buffy the Vampire Slayer', 'Burn Notice']
+INFO: Shows for Y - 34
+INFO: Scripts for Y - 821
+INFO: Missing for Y - ['Young Justice']
+INFO: Shows for P - 187
+INFO: Scripts for P - 3836
+INFO: Missing for P - ['BBC Planet Earth The Future', 'Painkiller Jane', 'Pan Am', "Parade's End", 'Paradox', 'Parenthood', 'Parks and Recreation', 'Party Down', 'Party of Five', 'Pawn Stars', 'Perception', 'Perfect Couples', 'Person of Interest', 'Personal Taste', 'Persons Unknown', 'Phineas and Ferb', 'Place of Execution', 'Point Pleasant', 'Police Squad!', 'Political Animals', 'Power Rangers', 'Pretty Little Liars', 'Pride and Prejudice', 'Primeval', 'Primeval: New World', 'Prison Break', 'Private Practice', 'Privileged', 'Psych', 'Pushing Daisies']
+INFO: Shows for C - 293
+INFO: Scripts for C - 7219
+INFO: Missing for C - ['Californication', 'Call the Midwife', "Callan's Kicks", 'Camelot', 'Camp', 'Cane', 'Caprica', 'Carnivale', 'Case Histories', 'Castle', 'Cedar Cove', "Charlie's Angels", 'Charmed', 'Chase', 'Cheers', 'Chicago Fire', 'Chuck', 'Churches: How to Read Them', 'Cleopatra 2525', 'Cold Case', 'Comic Book Men', 'Community', 'Continuum', 'Copper', 'Cosmos Carl Sagan', 'Cougar Town', 'Covert Affairs', 'Cracked', 'Crash', 'Criminal Minds', 'Criminal Minds: Suspect Behavior', 'Crossing Jordan', 'Crusoe', 'CSI: Crime Scene Investigation', 'CSI: Miami', 'CSI: NY', 'Curb Your Enthusiasm']
+INFO: Shows for 0 - 72
+INFO: Scripts for 0 - 1977
+INFO: Missing for 0 - ['#blackAF', '1,000 Places To See Before You Die', '10 Things I Hate About You', '100 Questions', '1000 Ways to Die', '1066 The Battle For Middle Earth', '12 Oz. Mouse', '1600 Penn', '18 to Life', '2 Broke Girls', '21 Jump Street', '24', '30 Rock', '3rd Rock from the Sun', '666 Park Avenue', '7th Heaven', '8 Simple Rules for Dating My Teenage Daughter', '90210']
+INFO: Shows for O - 91
+INFO: Scripts for O - 2068
+INFO: Missing for O - ['Odyssey 5', 'Off The Map', 'Olivia Newton-John: Hopelessly Devoted to You 2018)', 'Once Upon a Time', 'One Piece', 'One Tree Hill', 'Operation Stonehenge', 'Orange Is the New Black', 'Outlaw', 'Over There', 'Oz']
+INFO: Shows for X - 6
+INFO: Scripts for X - 323
+INFO: Missing for X - ['Xena: Warrior Princess', 'XIII: The Series']
+INFO: Shows for N - 103
+INFO: Scripts for N - 3744
+INFO: Missing for N - ['Nash Bridges', 'Nashville', "Nature's Great Events", "Nature's Weirdest Events", 'NCIS', 'NCIS Los Angeles', 'Neverwhere', 'New Amsterdam', 'New Girl', 'New Tricks', 'Nighty Night', 'Nikita', 'Nip/Tuck', 'No Heroics', 'No Ordinary Family', 'North and South', 'Northern Exposure', 'NTSF:SD:SUV::', 'Numb3rs', 'Nurse Jackie', 'NYPD Blue']
+INFO: Shows for W - 171
+INFO: Scripts for W - 3457
+INFO: Missing for W - ['Walker, Texas Ranger', 'Wallander', 'Warehouse 13', 'We Are Men', 'Weeds', 'Weird Science', 'White Collar', 'Whitechapel', 'Whitney', 'Wikileaks: The Secret Life of a Superpower', 'Wildfires 2014: Inside The Inferno', 'Wilfred', 'Will and Grace', 'Windfall', 'Winter Sonata', 'Wire in the Blood', 'Witchblade', 'Without a Trace', 'Wizards of Waverly Place', "Women's Murder Club", 'Wonderfalls', 'Wonders of the Solar System', 'Wonders of the Universe', 'Workaholics', 'World Without End', 'Worst Week']
+INFO: Shows for M - 330
+INFO: Scripts for M - 8682
+INFO: Missing for M - ['M*A*S*H (MASH)', 'Macgyver', 'Mad About You', 'Mad Love', 'Mad Men', 'Magic City', 'Major Crimes', 'Malcolm in the Middle', 'Marchlands', 'Married with Children', 'Marvel Ant-Man SHORTS', 'Marvel Spider-Man Shorts', 'Mary & Jane', 'Masters of Sex', 'Material Girl', 'Matlock', 'Meadowlands', 'Medium', 'Melissa & Joey', 'Melrose Place', 'Men in Trees', 'Men of a Certain Age', 'Mental', 'Mercy', 'Merlin', 'Miami Vice', 'Mike & Molly', 'Miranda', 'Misfits', 'Mistresses (US)', 'Modern Family', 'Mom', 'Monk', 'Monroe', 'Moonlight', 'Moonlighting', 'Morocco To Timbuktu: An Arabian Adventure', 'Mortal Kombat: Conquest', 'Mr Sunshine', 'Murder, She Wrote', 'Murderland', 'Murphy Brown', 'Mutant X', 'My Little Pony: Friendship is Magic ', 'My Name is Earl', 'My Own Worst Enemy', 'My So-Called Life', 'S#*! My Dad Says']
+INFO: Shows for F - 190
+INFO: Scripts for F - 4830
+INFO: Missing for F - ['Fair Isle - Living On the Edge', 'Fairly Legal', 'Falling Skies', 'Family Guy', 'Family Matters', 'Farscape', 'Father Ted', 'Fawlty Towers', 'Fear Factor (US)', 'Felicity', 'Filthy Rich and Catflap', 'Firefly', 'Fishing Impossible', 'five by five', 'Flash Gordon', 'FlashForward', 'Flashpoint', 'Flight of the Conchords', 'Food Detectives', 'Frasier', 'Freaks and Geeks', 'Friday Night Lights', 'Friends', 'Friends with Benefits', 'Fringe', 'Full House', 'Futurama']
+INFO: Shows for V - 46
+INFO: Scripts for V - 1054
+INFO: Missing for V - ['V', 'Veep', 'Vera', 'Veronica Mars', 'Vexed', 'Victorious', 'Vikings', 'Voyagers!']
+INFO: Shows for L - 208
+INFO: Scripts for L - 5472
+INFO: Missing for L - ['Las Vegas', 'Last Man Standing', 'Law & Order Special Victims Unit', 'Legend of the Seeker', 'Leverage', 'Lexx', 'Lie To Me', 'Life', 'Life is Wild', 'Life On Mars (US)', 'Lights Out', 'Lip Service', 'Little Britain (UK)', 'Lois and Clark: The New Adventures of Superman', 'Longmire', 'Lost', 'Lost in Austen', 'Louie', 'Louis Theroux', 'Low Winter Sun', 'Lucky Louie', "Luke Nguyen's Street Food Asia", 'Luther']
+INFO: Shows for U - 60
+INFO: Scripts for U - 1289
+INFO: Missing for U - ['UFO', 'Ugly Betty', 'Ultimate Force', 'Undeclared', 'Under the Dome', 'Underbelly', 'Unforgettable', 'Unhitched', 'United States of Tara', 'Unnatural History', 'Unspeakable']
+INFO: Shows for K - 86
+INFO: Scripts for K - 2052
+INFO: Missing for K - ['K-Ville', 'Keeping Britain Alive: The NHS in a Day', 'Keeping Up Appearances', 'Keeping Up With The Kardashians', 'King of the Hill', 'Kung Fu', 'Kyle XY']
+INFO: Shows for D - 266
+INFO: Scripts for D - 6903
+INFO: Missing for D - ["Da Vinci's Demons", 'Dads', 'Dallas', 'Damages', 'Daria', 'Dark Angel', 'Dark Blue', 'Davy Crockett', "Dawson's Creek", 'Day Break', 'DCI Banks Aftermath', 'Dead Like Me', 'Dead Set', 'Deadwood', 'Defiance', 'Defying Gravity', 'Derek', 'Desperate Housewives', 'Desperate Romantics', 'Detroit 1-8-7', 'Devious Maids', 'Dexter', 'Dharma & Greg', 'Dirty Sexy Money', 'Do No Harm', 'Doctor Who', 'Doctor Who - Documentary', 'Doctor Who: The Power of the Daleks', 'Dollhouse', "Don't Trust the B---- in Apartment 23", 'Downton Abbey', 'Dragon Ball Z', 'Dragons: Riders of Berk', 'Drive', 'Drop Dead Diva', 'Dynasty']
+INFO: Shows for J - 76
+INFO: Scripts for J - 1542
+INFO: Missing for J - ['JAG', 'Jane Eyre', 'Jeeves and Wooster', 'Jeff & Some Aliens', 'Jekyll', 'Jersey Shore', 'Jessie', 'Joan of Arcadia', "Joanna Lumley's Postcards From My Travels", 'Joey', 'John Adams', 'John from Cincinnati', 'Journeyman', 'Justice League Unlimited', 'Justified']
+INFO: Shows for T - 1053
+INFO: Scripts for T - 22924
+INFO: Missing for T - ["'Til Death", 'Taken', 'Talking Comedy', 'Teen Wolf', 'Tell Me You Love Me', 'Terminator: The Sarah Connor Chronicles', 'Terra Nova', 'Terriers', 'Terror in the Woods', 'Testees', "That '70s Show", 'The 4400', 'The Andromeda Strain', 'The Bachelor', 'The Bachelorette', 'The Beast', 'The Beauty of Anatomy', 'The Black Donnellys', 'The Blacklist', 'The Bletchley Circle', 'The Boondocks', 'The Borgias', 'The Bridge (US)', 'The British at Work', 'The Cape', 'The Chicago Code', 'The Class', 'The Cleveland Show', 'The Client List', 'The Closer', 'The Cosby Show', 'The Crazy Ones', 'The Critic', 'The Day of the Triffids', 'The Dead Zone', 'The Deep', 'The Deep End', 'The Defenders', "The Devil's Whore", 'The Diary of Anne Frank', 'The Dresden Files', 'The Dukes of Hazzard', 'The Event', 'The Ex List', 'The Fades', 'The Fast Show', 'The Flash', 'The Following', 'The Forgotten', 'The Fosters', 'The Fresh Prince of Bel-Air', 'The Gates', 'The Glades', 'The Goldbergs', 'The Good Guys', 'The Good Wife', 'The Grid', 'The Hitch Hikers Guide to the Galaxy', 'The Inbetweeners', 'The IT Crowd ', 'The IT Crowd ', 'The Job', 'The Jury', 'The Kennedys', 'The Killing', 'The King of Queens', 'The L Word', 'The L.A. Complex', 'The Last Enemy', 'The Last Templar', 'The League', 'The Legend of Korra', 'The Listener', 'The Lone Gunmen', 'The Looney Tunes Show', 'The Lost Room', 'The Lying Game', 'The Mentalist', 'The Michael J. Fox Show', 'The Middle', 'The Middleman', 'The Mindy Project', 'The Nanny', 'The Neighbors', 'The New Adventures of Old Christine', 'The New Normal', 'The Newsroom', 'The Nine Lives of Chloe King', 'The Office (UK)', 'The Office (US)', 'The Originals', 'The Pacific', 'The Philanthropist', 'The Pillars of the Earth', 'The Powerpuff Girls', 'The Pretender', 'The Project (US)', 'The Real L Word', 'The Ren and Stimpy Show', 'The Riches', 'The Runaway', 'The Sarah Jane Adventures', 'The Secret Circle', 'The Secret Life of the American Teenager', 'The Shadow Line', 'The Shield', 'The Silence', 'The Silver Surfer', 'The Simpsons', 'The Sopranos', 'The State Within', 'The Story Of China', 'The Straits', 'The Suite Life of Zack & Cody', 'The Thick of It', 'The Thin Blue Line', 'The Time Tunnel', 'The Truth About...', 'The Tudors', 'The Unit', 'The Universe', 'The Up Series', 'The Vampire Diaries', 'The Walking Dead', 'The War at Home', 'The West Wing', 'The White Queen', 'The Wire', 'The Wonder Years', 'The World at War', 'The X-Files', 'Thief', 'Thieves of the Wood', 'Third Watch', 'This World', 'Thor and Loki Blood Brothers', 'Thorne', 'Three Rivers', 'Through the Wormhole', 'Tin Man', 'Titanic', 'Top Gear (US)', 'Torchwood', 'Touch', 'Trailer Park Boys', 'Trauma', 'Traveler', 'Treme', 'Tremors', 'Trinity', 'Tripping the Rift', 'Tron: Uprising', 'Trophy Wife', 'Tru Calling', 'True Blood', 'Twin Peaks', 'Twisted', 'Two and a Half Men']
+INFO: Shows for I - 115
+INFO: Scripts for I - 2683
+INFO: Missing for I - ['I Hate My Teenage Daughter', 'iCarly', 'In Justice', 'In Plain Sight', 'In Treatment', 'Inside The Expanse', 'Into the West', 'Invasion', "It's Always Sunny in Philadelphia"]
+INFO: Shows for A - 264
+INFO: Scripts for A - 6390
+INFO: Missing for A - ['A Bit of Fry & Laurie', 'A Gifted Man', "A Young Doctor's Notebook", 'Absolute Power', 'Accidentally on Purpose', 'According To Jim', 'Adventure Time with Finn & Jake ', 'Against the Wall', 'Agents of S.H.I.E.L.D.', 'Alcatraz', 'ALF', 'Alfie v Homophobia: Hate in the Beautiful Game', 'Alfred Hitchcock Presents', 'Alias', 'Alien Nation', 'Aliens in America', 'All In The Family', 'Ally Mcbeal', 'Alphas', "America's Got Talent", 'American Dad', 'American Horror Story', 'American Idol: The Search For A Superstar', 'Ancient Aliens', 'Andromeda', 'Angel', 'Angels in America', 'Anger Management', 'Animal, Vegetable, Mineral? (21952)', 'Apparitions', 'Archaeology: A Secret History (BBC)', 'Archer', 'Army Wives', 'Arrested Development', 'Arrow', "As I'm Suffering From Kadhal", 'Ashes To Ashes', 'Austin and Ally', 'Auton Trilogy', 'Avatar: The Last Airbender', 'Awake', 'Awkward']
+INFO: Shows for S - 437
+INFO: Scripts for S - 11693
+INFO: Missing for S - ['Sabrina The Teenage Witch', 'Samantha Who?', 'Samurai Jack', 'Sanctuary', 'Saving Grace', 'Scandal', 'Scott and Bailey', 'Scoundrels', 'Scrapheap Challenge', 'Scrubs', 'Secret Diary of a Call Girl', 'Secret State', 'Secrets of the Castle', 'Seinfeld', 'Sense and Sensibility', 'Sex and the City', 'Shake It Up!', 'Shameless', 'Shameless US', 'Shark', 'Sharpe', 'Sherlock', 'Shut Eye', 'Silk', 'Sinchronicity', 'Single Father', 'Six Feet Under', 'Skins', 'Skins (US)', 'Sledge Hammer!', 'Sleeper Cell', 'Sleepy Hollow', 'Sliders', 'Slings and Arrows', 'Slugterrainea', 'Small Island', 'Smallville', 'Smash', 'Sons of Anarchy', 'Sons of Tucson', 'South of Nowhere', 'South Park', 'Southland', 'Space: 1999', 'Space: Above and Beyond', 'Spaced', 'Spartacus: Blood and Sand', 'Spartacus: Gods of the Arena', 'Spin City', 'SpongeBob SquarePants', 'Spooks', 'Squid Game', 'Standoff', 'Star Trek Continues', 'Star Trek: Deep Space Nine', 'Star Trek: Enterprise', 'Star Trek: The Next Generation', 'Star Trek: Voyager', 'Star Wars: The Clone Wars', 'Stargate SG-1', 'Stargate Universe', 'Stargate: Atlantis', 'State of Play', 'Strike Back', 'Sugar Rush', 'Suits', 'Super Fun Night', 'Supernatural', "Survivorman's Secrets of Survival", 'Swingtown', 'Switched at Birth']
+INFO: Total shows count - 5154
+INFO: Total scripts count - 126020
+INFO: Total time: 1594.1447682380676
