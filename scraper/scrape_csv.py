@@ -19,7 +19,6 @@ class ScriptScraper:
   def __init__(self, titles, site_url, thread_count, download_directory, error_threshold=5):
     self.titles = titles
     self.site_url = site_url
-    self.scripts_url = ''
     self.thread_count = thread_count
     self.download_directory = download_directory
     self.log_file = 'scriptscraper_{time}.log'.format(time=strftime('%Y-%m-%d %H-%M'))
@@ -55,22 +54,27 @@ class ScriptScraper:
     title = title_row[0]
     script_type = title_row[1]
     year = title_row[2]
-    season = title_row[3]
-    episode = title_row[4]
-    episodes = []
-
-    if script_type == 'tv_series':
-      self.scripts_url = self.site_url + '/tv_show_episode_scripts.php'
+    if len(title_row) > 3:
+      season = title_row[3]
+      episode = title_row[4]
+      episodes = []
+      ep_limit = episode.split('-')
+      if len(ep_limit) == 1:
+        episodes.append(int(ep_limit[0]))
+      else:
+        for i in range(int(ep_limit[0]), int(ep_limit[1])+1):
+          episodes.append(i)
     else:
-      self.scripts_url = self.site_url + '/movie_scripts.php'
-
-    ep_limit = episode.split('-')
-    for i in range(int(ep_limit[0]), int(ep_limit[1])+1):
-      episodes.append(i)
+      season = ""
+      episodes = []
+    if script_type == 'tv_series':
+      scripts_url = self.site_url + '/tv_show_episode_scripts.php'
+    else:
+      scripts_url = self.site_url + '/movie_scripts.php'
 
     #Soupify the script page for each title
     title_formatted = '+'.join(title.split(" "))
-    title_page = urlopen(self.scripts_url + '?search=' + title_formatted)
+    title_page = urlopen(scripts_url + '?search=' + title_formatted)
     title_page_soup = BeautifulSoup(title_page, 'lxml')
 
     #Check if there are no search results
@@ -84,10 +88,10 @@ class ScriptScraper:
         title_pages = int(title_page_links[-1].get_text())
       else:
         title_pages = 1
-      script_count, title = self.iterate_search_pages(title, title_pages, script_type, season, episodes)
+      script_count, title = self.iterate_search_pages(title, title_pages, script_type, season, episodes, year, scripts_url)
     return script_count, title
 
-  def iterate_search_pages(self, title, num_pages, script_type, season, episodes):
+  def iterate_search_pages(self, title, num_pages, script_type, season, episodes, year, scripts_url):
     current_page = 1
     script_count = 0
     error_count = 0
@@ -95,7 +99,7 @@ class ScriptScraper:
     while current_page <= num_pages:
       try:
         if current_page >= 1:
-          search_page = urlopen(self.scripts_url + '?search=' + title_formatted + '&page=' + str(current_page))
+          search_page = urlopen(scripts_url + '?search=' + title_formatted + '&page=' + str(current_page))
           search_page_soup = BeautifulSoup(search_page, 'lxml')
           title_links = search_page_soup.select('a.btn.btn-dark.btn-sm')
           for title_link in title_links:
@@ -109,12 +113,11 @@ class ScriptScraper:
               search_title = search_title[:-7]
             ratio = SequenceMatcher(None, search_title.lower(), title.lower()).ratio()
             if ratio >= 0.8:
-              print(search_title, title, script_type)
               if script_type == "tv_series":
-                added_scripts = self.scrape_tv_scripts(title, title_date, title_page, season, episodes)
+                added_scripts = self.scrape_tv_scripts(title, year, title_page, season, episodes)
                 script_count += added_scripts
               else:
-                self.scrape_movie_scripts(title, title_date, title_page)
+                self.scrape_movie_scripts(title, year, title_page)
                 script_count += 1
           current_page += 1
       except Exception as e:
@@ -153,7 +156,7 @@ class ScriptScraper:
                 clean_title = self.clean_title(tv_show_title)
                 
                 path_elements = self.download_directory.split('/') + \
-                                [clean_title + '_' + tv_show_date, season]
+                                ["tv-series", clean_title + '_' + tv_show_date, season]
                 self.ensure_script_file_path(path_elements)
                 ep_path = '/'.join(path_elements)
                 ep_filename = self.clean_title(episode_link.get_text()) + '.txt'
@@ -177,7 +180,6 @@ class ScriptScraper:
   
   def scrape_movie_scripts(self, movie_title, movie_date, movie_script_page_url):
     error_count = 0
-
     try:
       movie_script_page = urlopen(self.site_url + movie_script_page_url)
       movie_script_soup = BeautifulSoup(movie_script_page, 'lxml')
@@ -185,7 +187,7 @@ class ScriptScraper:
       raw_script = movie_script_soup.find('div', class_='scrolling-script-container').get_text()
       clean_script = self.clean_script(raw_script)
 
-      path_elements = self.download_directory.split('/')
+      path_elements = self.download_directory.split('/') + ["movies"]
       self.ensure_script_file_path(path_elements)
       movie_path = '/'.join(path_elements)
       movie_filename = self.clean_title(movie_title) + '_' + str(movie_date) + '.txt'
@@ -229,7 +231,7 @@ class ScriptScraper:
   
   def save_script_file(self, file_name, script):
     if not os.path.isfile(file_name):
-      with open(file_name, 'w+', encoding='utf-8') as handle:
+      with open(file_name, 'w+', encoding='ISO-8859-1') as handle:
         handle.write(script)
         handle.close()
     else:
