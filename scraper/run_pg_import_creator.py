@@ -2,8 +2,8 @@ import pg_import_creator
 
 
 def main():
-  tv_dir = 'D:\\Spring22\\RA\\nlc-script-database-master\\scraper\\test\\tv-series'
-  movie_dir = 'D:\\Spring22\\RA\\nlc-script-database-master\\scraper\\test\\movies'
+  tv_dir = ''
+  movie_dir = ''
   print('Starting import file creation')
 
   try:
