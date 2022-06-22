@@ -3,7 +3,7 @@ import re
 import pysrt
 import scraper_constants
 
-raw_data_path = ''
+raw_data_path = 'D:/Spring22/RA/nlc-script-database-master/tools/raw_data'
 
 def clean_title(raw_title):
     clean_title = (raw_title + '.')[:-1]
@@ -23,6 +23,9 @@ def clean_script(raw_script):
     clean_script = clean_script.replace('\\', '')
     clean_script = clean_script.replace('<i>', '')
     clean_script = clean_script.replace('</i>', '')
+    clean_script = clean_script.replace('♪', '')
+    clean_script = clean_script.replace("’", "'")
+    clean_script = clean_script.replace("‘", "'")
     return clean_script
 
 def ensure_script_file_path(path_elements):
@@ -46,18 +49,6 @@ def save_script_file(file_name, script):
         print('save_script_file(): File exists so skipping save: ' + file_name)
 
 def extract_script(fn):
-    '''
-    # read file line by line
-    file = open(fn, "r")
-    lines = file.readlines()
-    file.close()
-
-    text = ''
-    for line in lines:
-        if re.search('^[0-9]+$', line) is None and re.search('^[0-9]{2}:[0-9]{2}:[0-9]{2}', line) is None and re.search('^$', line) is None:
-            text += ' ' + line.rstrip('\n')
-        text = text.lstrip()
-    return text'''
     subs = pysrt.open(fn)
     text = ''
     for line in subs:
@@ -81,7 +72,8 @@ def extract(titles):
                     ep_file = os.listdir(raw_data_path + "/" + fn + "/" + ep)[0]
                     raw_script = extract_script(raw_data_path + "/" + fn + "/" + ep + "/" + ep_file)
                     script = clean_script(raw_script)
-                    ep_filename = ep + '.txt'
+                    ep_no = ''.join(filter(str.isdigit, ep))
+                    ep_filename = ep_no + ". " + ep + '.txt'
                     save_script_file('/'.join([ep_path, ep_filename]), script)
                 except Exception as e:
                     print("Could not read file - " + raw_data_path + "/" + fn + "/" + ep + ", errors out with exception - " + str(e))
