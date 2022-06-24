@@ -3,7 +3,7 @@ import re
 import pysrt
 import scraper_constants
 
-raw_data_path = 'D:/Spring22/RA/nlc-script-database-master/tools/raw_data'
+raw_data_path = 'raw_data'
 
 def clean_title(raw_title):
     clean_title = (raw_title + '.')[:-1]
