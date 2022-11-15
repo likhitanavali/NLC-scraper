@@ -6,7 +6,7 @@ from time import time, strftime
 import pandas as pd
 import tmdbsimple as tmdb
 import re
-tmdb.API_KEY = 'c03059dd159fb051ea88bb406ad38353'
+tmdb.API_KEY = ''
 
 class dbConnect:
   def __init__(self, db_info):
